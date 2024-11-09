@@ -1,0 +1,80 @@
+.parent{
+   
+    display: flex;
+    
+}
+.hero{
+    width: 60%;
+    height: 500px;
+background-color: yellow;
+    padding: 30px;
+   
+}
+.child{
+    margin: 40px;
+}
+.child h1{
+    font-weight: bolder;
+}
+
+.child p{
+    font-style: italic;
+}
+*{
+    box-sizing: border-box;
+}
+.btn{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.parent-2{
+    display: flex;
+    justify-content: center;
+
+}
+.para{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-style:italic ;
+    font-weight: bold;
+}
+.parent-3 i{
+     text-align: center;
+     margin-top: 15px;
+     font-size: 30px;
+     
+}
+.parent-3{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    border: 1px solid black;
+    height: 200px;
+}
+.HEAD{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.parent-4{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* height: 300px; */
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button-1{
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 5px;
+}
